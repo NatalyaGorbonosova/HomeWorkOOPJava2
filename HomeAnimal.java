@@ -7,11 +7,11 @@ public class HomeAnimal extends Animal{
 
     protected HomeAnimal(double height, double weight, String eyeColor, String nickName, String breed, boolean vaccination, String coatColor, String birthday){
         super(height, weight, eyeColor);
-        nickName = this.nickName;
-        breed = this.breed;
-        vaccination = this.vaccination;
-        coatColor = this.coatColor;
-        birthday = this.birthday;
+        this.nickName = nickName;
+        this.breed = breed;
+        this.vaccination = vaccination;
+        this.coatColor = coatColor;
+        this.birthday = birthday;
     }
 
     public String showAffection(){

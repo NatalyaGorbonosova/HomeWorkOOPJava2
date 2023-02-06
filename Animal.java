@@ -4,9 +4,9 @@ public class Animal{
     private String eyeColor;
     
     protected Animal(double height, double weight, String eyeColor) { 
-    height = this.height;
-    weight = this.weight;
-    eyeColor = this.eyeColor;
+    this.height = height;
+    this.weight = weight;
+    this.eyeColor = eyeColor;
     }
 
     public String sound(){
